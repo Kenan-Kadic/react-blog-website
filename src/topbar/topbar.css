@@ -1,0 +1,20 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  /* make topbar stay at top meaning top 0 and move with you as you go down */
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+}
+.topCenter {
+  flex: 6;
+}

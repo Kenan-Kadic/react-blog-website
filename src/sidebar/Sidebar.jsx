@@ -6,7 +6,7 @@ export default function Sidebar() {
             <div className="sidebarItem">
                 <span className="sidebarTitle">ABOUT ME</span>
                 <img
-                src="https://images.pexels.com/photos/4167542/pexels-photo-4167542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200&w=450"
+                src="https://images.pexels.com/photos/4167542/pexels-photo-4167542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200&w=400"
                 alt=""
         />
                 <p>
@@ -35,7 +35,7 @@ export default function Sidebar() {
                     <i className="sidebarIcon fab fa-instagram-square"></i>
             </div>
             </div>
-
+            
         </div>
     )
 }

@@ -30,11 +30,11 @@
   font-weight: 600;
 }
 
-/* .sidebarItem > img {
+.sidebarItem > img {
   margin-top: 15px;
-  width: 250px;
-  height: 350px;
-} */
+  width: 320px;
+  height: 400px;
+}
 
 .sidebarItem > p {
   padding: 30px;

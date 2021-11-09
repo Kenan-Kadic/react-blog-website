@@ -9,28 +9,33 @@ export default function Settings() {
                 <span className="settingsUpdateTitle">Update Your Account</span>
                 <span className="settingsDeleteTitle">Delete Account</span>
           </div>
-          <form className="settingsForm"></form>
+          <form className="settingsForm">
                 <label>Profile Picture</label>
                 <div className="settingsPP">
                 <img 
                 src="https://images.pexels.com/photos/4270088/pexels-photo-4270088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 alt="" />
                 <label htmlFor="fileInput">
-               
-                <i className="settingsPPIcon far fa-user-circle"></i>
+               <i className="settingsPPIcon far fa-user-circle"></i>{" "}
                 </label>
-                <input type="file" id="fileInput" style={{display:"none"}}/>
+                <input 
+                id="fileInput"
+                type="file" 
+                style={{ display: "none"}}
+                />
             </div>
             <label>Username</label>
-            <input type="text" placeholder="Kenan" />
+            <input type="text" placeholder="Kenan" name="name" />
             <label>Email</label>
-            <input type="email" placeholder="ken.kadic@outlook.com" />
+            <input type="email" placeholder="ken.kadic@outlook.com" name="email" />
             <label>Password</label>
-            <input type="password" />
-            <button className="settingsSubmit">Update</button>
+            <input type="password" placeholder="Password" name="password" />
+            <button className="settingsSubmitButton" type="submit">
+            Update
+            </button>
+            </form>
         </div>
-         
-          <Sidebar/>
+         <Sidebar/>
     </div>
     );
 }

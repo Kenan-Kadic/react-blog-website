@@ -1,48 +1,31 @@
-import TopBar from "./components/topbar/TopBar";
+import Topbar from "./components/topbar/Topbar";
 import Homepage from "./pages/homepage/Homepage";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-
+import {BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-    
-    return (
-        <Router>
-            <TopBar/>
-            <Routes>
-                <Route exact path="homepage">
-                    <Homepage />
-                </Route>
-                <Route path="/posts">
-                    <Homepage />
-                </Route>
-                <Route path="/register">
-                    <Register />
-                </Route>
-                <Route path="/login">
-                    <Login />
-                </Route>
-                <Route path="/write">
-                    <Write />
-                </Route>
-                <Route path="/settings">
-                    <Settings />
-                </Route>
-                <Route path="/post/:postId">
-                    <Single />
-                </Route>
-            </Routes>        
-            </Router>
-                   
-    );
+  const currentUser = true;
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Topbar />
+        <Routes>
+          <Route exact path="/" element={<Homepage />} />
+          <Route path="/posts" element={<Homepage />} />
+          <Route path="/register" element={currentUser ? <Homepage /> : <Register />} />
+          <Route path="/login" element={currentUser ? <Homepage /> : <Login />} />
+          <Route path="/post/:id" element={<Single />} />
+          <Route path="/write" element={currentUser ? <Write /> : <Login />} />
+          <Route path="/settings" element={currentUser ? <Settings /> : <Login />} />
+        </Routes>
+      </BrowserRouter>
+      </div>
+       
+  );
 }
 
 export default App;

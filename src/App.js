@@ -6,6 +6,8 @@ import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import {BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   
@@ -21,6 +23,8 @@ function App() {
           <Route path="/post/:id" element={<Single />} />
           <Route path="/write" element={<Write />} />
           <Route path="/settings" element={<Settings /> } />
+          <Route path="/about" element={<About /> } />
+          <Route path="/contact" element={<Contact /> } />
         </Routes>
       </BrowserRouter>
       </div>

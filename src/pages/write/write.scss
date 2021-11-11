@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .write {
   padding-top: 50px;
 }
@@ -8,6 +10,12 @@
   height: 250px;
   border-radius: 10px;
   object-fit: cover;
+
+  @include mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .writeForm {
@@ -37,6 +45,12 @@
   border: none;
   padding: 20px;
   width: 70vw;
+
+  @include mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
 
 .writeInput:focus {
@@ -59,4 +73,10 @@
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+
+  @include mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./topbar.css";
+import "./topbar.scss";
 
 export default function Topbar() {
   const currentUser = false;
@@ -15,7 +15,7 @@ export default function Topbar() {
         <ul className="topList">
           <li className="topListItem">
             <Link className="link" to="/">
-              HOME
+               HOME
             </Link>
           </li>
           <li className="topListItem">

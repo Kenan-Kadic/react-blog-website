@@ -23,7 +23,7 @@ export default function About() {
                      Veniam asperiores ad sit iure provident nam. Delectus cumque sint veritatis pariatur soluta ad, 
                      fugit ex, natus commodi blanditiis eveniet molestias recusandae! Lorem ipsum dolor sit amet 
                      consectetur adipisicing elit. Consequuntur et hic enim laudantium unde impedit dicta vero beatae 
-                     voluptate. Asperiores quaerat reprehenderit labore sit recusandae magni id tempore possimus animi.
+                     voluptate. Asperiores quaerat reprehenderit labore sit recusandae magni id tempore.
                 </p>
             </div>
             <div className="aboutItem">

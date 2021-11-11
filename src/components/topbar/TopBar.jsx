@@ -41,7 +41,7 @@ export default function Topbar() {
           <Link className="link" to="/settings">
             <img
               className="topImg"
-              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://images.pexels.com/photos/4270088/pexels-photo-4270088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               alt=""
             />
           </Link>

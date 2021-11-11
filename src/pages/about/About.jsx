@@ -12,7 +12,18 @@ export default function About() {
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia necessitatibus mollitia 
                     quo quam ipsum perferendis cum assumenda nobis reiciendis itaque quas, architecto laudantium 
-                    expedita sit nostrum molestias. Saepe, officia natus.
+                    expedita sit nostrum molestias. Saepe, officia natus. Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Nisi inventore magnam repudiandae alias quam iusto et, nemo velit esse! Sit, 
+                    officiis. Quis sunt deleniti nam at, voluptatibus consequatur quasi officia. Lorem ipsum dolor
+                     sit amet consectetur adipisicing elit. Earum dolores inventore ducimus fugiat quasi culpa alias, 
+                     cum eum ut voluptatem quaerat accusantium commodi deleniti laborum cupiditate ullam blanditiis? 
+                     Cupiditate, veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quas itaque 
+                     quidem, earum hic ad inventore quis sint eum deserunt eos a. Consectetur explicabo ut nostrum 
+                     doloremque, qui reprehenderit ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     Veniam asperiores ad sit iure provident nam. Delectus cumque sint veritatis pariatur soluta ad, 
+                     fugit ex, natus commodi blanditiis eveniet molestias recusandae! Lorem ipsum dolor sit amet 
+                     consectetur adipisicing elit. Consequuntur et hic enim laudantium unde impedit dicta vero beatae 
+                     voluptate. Asperiores quaerat reprehenderit labore sit recusandae magni id tempore possimus animi.
                 </p>
             </div>
             <div className="aboutItem">

@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .sidebar {
   flex: 3;
   height: fit-content;
@@ -8,12 +10,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .sidebarItem {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .sidebarTitle {
@@ -28,21 +38,37 @@
   line-height: 19px;
   color: #222222;
   font-weight: 600;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .sidebarItem > img {
   margin-top: 15px;
   width: 320px;
   height: 400px;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .sidebarItem > p {
   padding: 30px;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .sidebarList {
   list-style-type: none;
   margin-bottom: 30px;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .sidebarListItem {
@@ -50,6 +76,10 @@
   width: 50%;
   margin-top: 15px;
   cursor: pointer;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .sidebarSocial {
@@ -58,9 +88,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .sidebarIcon {
   font-size: 16px;
   margin-left: 10px;
+
+  @include mobile {
+    display: none;
+  }
 }

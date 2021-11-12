@@ -18,7 +18,7 @@ export default function Write() {
             className="writeInput"
             placeholder="Title"
             type="text"
-            autoFocus={true}
+            // autoFocus={true}
           />
         </div>
         <div className="writeFormGroup">
@@ -26,7 +26,7 @@ export default function Write() {
             className="writeInput writeText"
             placeholder="Tell your story..."
             type="text"
-            autoFocus={true}
+            // autoFocus={true}
           />
         </div>
         <button className="writeSubmit" type="submit">

@@ -18,7 +18,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
+.topLeft {
   @include mobile {
     display: none;
   }
@@ -68,4 +70,16 @@
   font-size: 18px;
   color: #666;
   cursor: pointer;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.topRight {
+  .topListItem:last-child {
+    @include mobile {
+      display: none;
+    }
+  }
 }

@@ -69,10 +69,3 @@
   color: #666;
   cursor: pointer;
 }
-
-a {
-  @include mobile {
-    margin-top: 20px;
-    margin-right: 10px;
-  }
-}

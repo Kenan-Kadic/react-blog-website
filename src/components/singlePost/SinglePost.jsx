@@ -17,7 +17,7 @@ export default function SinglePost() {
                         </div>
                 </h1>
                 <div className="singlePostInfo">
-                    <span className="singlePostAuthor">Author: <b>Kenan</b></span>                                        
+                    <span className="singlePostAuthor">Author: <b>Ken Smith</b></span>                                        
                     <span className="singlePostDate">1 hour ago</span>
             </div>
             <p className="singlePostDesc">Nurses and other front-line health care workers across the state and nation are 

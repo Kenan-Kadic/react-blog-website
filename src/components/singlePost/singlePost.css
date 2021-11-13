@@ -59,3 +59,13 @@
   font-size: 30px;
   font-weight: 600;
 }
+
+.singlePostSecondDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostSecondDesc::first-letter {
+  margin-left: 20px;
+}

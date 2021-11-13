@@ -23,7 +23,7 @@ export default function Post() {
         
         <p className="postDesc">
         <Link className="link" to="/singlePost">
-        Nurses and other front-line health care workers across the state and nation are feeling deeply stressed out and overwhelemed on there job,
+        Nurses and other front-line health care workers across the state and nation are feeling deeply stressed out and overwhelmed on their job,
         and companies are now wondering what can be done to address this issue. 
         With some hospitals losing more than 50 percent of their staff in the last year, staffing shortages are expected to continue. One of the main reasons for these shortages is the fact that nurses feel burned 
         out while performing their job. This feeling of burnout has worsened lately, due to a pandemic that has dragged on for years now with no official 

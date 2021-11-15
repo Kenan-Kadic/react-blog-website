@@ -20,7 +20,7 @@ export default function Sidebar() {
                     <ul className="sidebarList">
                         <li className="sidebarListItem">Life</li>                       
                         <li className="sidebarListItem">Work</li>                     
-                        <li className="sidebarListItem">Humor</li>                       
+                        <li className="sidebarListItem">Medicine</li>                       
                         <li className="sidebarListItem">Tech</li>
                         <li className="sidebarListItem">Listings</li>                        
                         <li className="sidebarListItem">Fun</li>                           

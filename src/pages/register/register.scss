@@ -42,6 +42,11 @@
   color: white;
   border-radius: 10px;
   padding: 10px;
+
+  @include mobile {
+    padding: 15px;
+    font-size: 15px;
+  }
 }
 
 .registerLoginButton {
@@ -57,5 +62,6 @@
 
   @include mobile {
     padding: 15px;
+    font-size: 15px;
   }
 }

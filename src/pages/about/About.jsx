@@ -21,7 +21,7 @@ export default function About() {
                     <ul className="aboutList">
                         <li className="aboutListItem">Life</li>                       
                         <li className="aboutListItem">Work</li>                     
-                        <li className="aboutListItem">Humor</li>                       
+                        <li className="aboutListItem">Medicine</li>                       
                         <li className="aboutListItem">Tech</li>
                         <li className="aboutListItem">Listings</li>                        
                         <li className="aboutListItem">Fun</li>                           

@@ -10,9 +10,9 @@ export default function Sidebar() {
                 alt=""
         />
                 <p>
-                    My name is Tamra and I am a Surgical ICU Nurse working in the St. Louis, MO area. This text here is only put for deomstration purposes 
-                    so I am currently not able to share a lot of personal information about myself, but should you employ the services of 
-                    the web developer who created this page, you are more than welcome to write whatever you see fit here.
+                    My name is Tamra and I am a Surgical ICU Nurse working in the St. Louis, MO area. I have been a nurse for 8 years
+                    and there is nothing I love more than to take good care of my patients. Aside from working in ICU, I also have 2 
+                    years experience as a Neuro Nurse, where I have addressed multiple types of stroke and stroke related topics.
                 </p>
             </div>
             <div className="sidebarItem">

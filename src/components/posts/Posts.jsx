@@ -7,7 +7,7 @@ const Posts = props => {
             {props.children}
             <Post 
             postTitle=" Nurses with burnout: A major problem that continues as nurse shortages worsen Nationwide."
-            postImage="https://images.pexels.com/photos/3791136/pexels-photo-3791136.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" 
+            postImage="https://images.pexels.com/photos/3755761/pexels-photo-3755761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
             postText="Nurses and other front-line health care workers across the state and nation are feeling deeply stressed out and overwhelmed on their job,
             and companies are now wondering what can be done to address this issue. With some hospitals losing more than 50 percent of their staff in the last year, 
             staffing shortages are expected to continue. One of the main reasons for these shortages is the fact that nurses feel burned 

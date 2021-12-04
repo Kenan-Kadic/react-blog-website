@@ -5,7 +5,7 @@ export default function SinglePost() {
         <div className="singlePost">
             <div className="singlePostWrapper">
                 <img 
-                src="https://images.pexels.com/photos/3791136/pexels-photo-3791136.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"  
+                src="https://images.pexels.com/photos/3755761/pexels-photo-3755761.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"  
                 alt=""
                 className="singlePostImg"
                 />
